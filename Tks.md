@@ -2,7 +2,7 @@ from discord import Webhook, RequestsWebhookAdapter, Embed, Color
 
 
 def send_webhook():
-    url = 'https://discordapp.com/api/webhooks/693250405127290952/W_ccZhOyKGxzh6eCbxuo_wxhU7FO9uP44Ymt2_XK4c7h9ptEWL-O5YQBaYQ_ZwpKuJPw'
+    url = ''
 
 
     webhook = Webhook.from_url(url, adapter=RequestsWebhookAdapter())
